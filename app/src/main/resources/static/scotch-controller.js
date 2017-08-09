@@ -1,4 +1,4 @@
-let scotchController = ($scope) => {
+let scotchController = function($scope) {
 
 	$scope.message = 'test';
 
