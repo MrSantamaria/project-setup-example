@@ -1,12 +1,12 @@
-package com.revature.uiRouterDemo;
+package com.revature;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UiRouterDemoApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UiRouterDemoApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
